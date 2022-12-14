@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    background-color: rgb(32, 32, 34);
+    position: sticky;
+    top: 0%;
+    
+    
+}
+
+
+  
+  li a {
+    display:block;
+    color: white;
+    float: left;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 120%;
+  }
+  
+  li a:hover {
+    background-color: red;
+
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 0 10px;
+  }
+  
+  .header {
+    background: url(bab.jpg) no-repeat center center; 
+    background-size: cover;
+    
+    padding: 15%;
+    text-align: center;
+  }
+  
+  
+  
+  .header h1 {
+    color: #fff;
+    font-size: 400%;
+    margin-top: 0;
+    
+
+  }
+
+   
+  
+  .header p {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+  }
+  
+  .btn {
+    color: #fff;
+    background: rgb(3, 19, 241);
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: background .5s; 
+  }
+
+  .main .container {
+    margin: 80px auto;
+  }
+  
+  .main img {
+    float: left;
+    margin: 50px 80px 50px 0;
+  }
+  
+  .footer { 
+    background: #000;
+    height: 80px; 
+    padding-bottom: 50px;
+  }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+  }
